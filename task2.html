@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        /* td {
+            padding: 8px;
+        } */
+        .header {
+            background-color: #87CEEB;
+        }
+        /* .form-body {
+            background-color: #FFC0CB;
+        } */
+    </style>
+</head>
+<body>
+    <h2>Student Registration Form Using Table in HTML</h2>
+    <form>
+        <table border="1">
+            <tr class="header">
+                <td>First Name</td>
+                <td><input type="text" name="first_name" maxlength="50"></td>
+            </tr>
+            <tr class="header">
+                <td>Last Name</td>
+                <td><input type="text" name="last_name" maxlength="50"></td>
+            </tr>
+            <tr class="header">
+                <td>Email ID</td>
+                <td><input type="email" name="email" value="xyz@gmail.com"></td>
+            </tr>
+            <tr class="header">
+                <td>Mobile Number</td>
+                <td><input type="text" name="mobile_number" value="7802xxxxx" maxlength="10"></td>
+            </tr>
+            <tr class="header">
+                <td>Address</td>
+                <td><input type="text" name="address" maxlength="50"></td>
+            </tr>
+            <tr class="header">
+                <td>City</td>
+                <td><input type="text" name="city" value="Bangalore" maxlength="50"></td>
+            </tr>
+            <tr class="header">
+                <td>Pin Code</td>
+                <td><input type="text" name="pin_code" value="560068" maxlength="6"></td>
+            </tr>
+            <tr class="header">
+                <td>State</td>
+                <td><input type="text" name="state" value="Karnataka" maxlength="50"></td>
+            </tr>
+            <tr class="header">
+                <td>Country</td>
+                <td><input type="text" name="country" value="India" maxlength="50"></td>
+            </tr>
+            <tr class="header">
+                <td>Date of Birth (DOB)</td>
+                <td>
+                    <input type="number" name="dob_day" placeholder="Day" style="width: 50px;">
+                    <input type="number" name="dob_month" placeholder="Month" style="width: 50px;">
+                    <input type="number" name="dob_year" placeholder="Year" style="width: 70px;">
+                </td>
+            </tr>
+            <tr class="header">
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </td>
+            </tr>
+            <tr class="form-body">
+                <td>Hobbies</td>
+                <td>
+                    <input type="checkbox" name="hobbies" value="drawing"> Drawing
+                    <input type="checkbox" name="hobbies" value="singing"> Singing
+                    <input type="checkbox" name="hobbies" value="dancing"> Dancing
+                    <input type="checkbox" name="hobbies" value="sketching"> Sketching
+                    <input type="checkbox" name="hobbies" value="other"> Other
+                    <input type="text" name="hobbies_other" maxlength="50" placeholder="Ex: Texting">
+                </td>
+            </tr>
+            <tr class="form-body">
+                <td>Qualification</td>
+                <td>
+                    <input type="checkbox" name="qualification" value="high_school_10th"> High School (10th)
+                    <input type="checkbox" name="qualification" value="high_school_12th"> High School (12th)
+                    <input type="checkbox" name="qualification" value="graduation"> Graduation
+                    <input type="checkbox" name="qualification" value="post_graduation"> Post Graduation (Masters)
+                    <input type="checkbox" name="qualification" value="phd"> PhD
+                </td>
+            </tr>
+            <tr class="form-body">
+                <td>Courses Applied For</td>
+                <td>
+                    <input type="checkbox" name="courses" value="bca"> BCA (Bachelor of Computer Application)
+                    <input type="checkbox" name="courses" value="bcom"> B.Com (Bachelor of Commerce)
+                    <input type="checkbox" name="courses" value="bsc"> B.Sc (Bachelor of Science)
+                    <input type="checkbox" name="courses" value="ba"> BA (Bachelor of Arts)
+                    <input type="checkbox" name="courses" value="mca"> MCA (Master of Computer Application)
+                    <input type="checkbox" name="courses" value="mcom"> M.Com (Master of Commerce)
+                    <input type="checkbox" name="courses" value="msc"> M.Sc (Master of Science)
+                    <input type="checkbox" name="courses" value="ma"> MA (Master of Arts)
+                </td>
+            </tr>
+            <tr class="form-body">
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+
+        <button colspan="2" style="text-align: center;">button</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,60 @@
+/* Reset default margin and padding */
+
+
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center the nav items */
+}
+
+.nav-links li {
+    margin: 0 15px; /* Space between nav items */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+    color: #fff;
+}
+
+.div1{
+    padding-right: 800px;
+}
+.div2{
+    position: absolute;
+    margin-left: 700px;
+    
+    
+  
+}
+.relative{
+ position: relative;
+}
+.relative,img{
+    height: 200px;
+    width: 300px;
+    float: right;
+    margin-right: 1100px;
+    top: 5px;
+
+
+}
+
+.div3{
+    padding-right: 800px;
+}
+
+
